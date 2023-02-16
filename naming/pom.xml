@@ -31,7 +31,7 @@
     <packaging>jar</packaging>
     
     <name>nacos-naming ${project.version}</name>
-    <url>https://nacos.io</url>
+    <url>http://nacos.io</url>
     
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -102,9 +102,13 @@
             <artifactId>httpclient</artifactId>
         </dependency>
         
+        <!--<dependency>-->
+        <!--    <groupId>mysql</groupId>-->
+        <!--    <artifactId>mysql-connector-java</artifactId>-->
+        <!--</dependency>-->
         <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
+            <groupId>com.dameng</groupId>
+            <artifactId>DmJdbcDriver18</artifactId>
         </dependency>
         
         <!-- log -->
