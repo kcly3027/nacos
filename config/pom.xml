@@ -29,7 +29,7 @@
     <packaging>jar</packaging>
     
     <name>nacos-config ${project.version}</name>
-    <url>https://nacos.io</url>
+    <url>http://nacos.io</url>
     
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -56,9 +56,13 @@
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
         </dependency>
+        <!--<dependency>-->
+        <!--    <groupId>mysql</groupId>-->
+        <!--    <artifactId>mysql-connector-java</artifactId>-->
+        <!--</dependency>-->
         <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
+            <groupId>com.dameng</groupId>
+            <artifactId>DmJdbcDriver18</artifactId>
         </dependency>
         <dependency>
             <groupId>org.apache.derby</groupId>
